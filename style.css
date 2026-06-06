@@ -1,0 +1,13 @@
+.container {
+    height: 475px;
+    width: 1000px;
+    background-color: lightslategrey;
+    position: relative;
+    border-radius: 50px;
+    right: -200px;
+    top: -50px;
+}
+
+h1 {
+    text-align: center;
+}
