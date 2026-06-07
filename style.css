@@ -1,11 +1,16 @@
 .container {
-    height: 475px;
-    width: 1000px;
+    height: 1000px;
+    width: 700px;
     background-color: lightslategrey;
     position: relative;
     border-radius: 50px;
     right: -200px;
     top: 0px;
+}
+
+.container:hover {
+    transition: 0.5s ease;
+    transform: scale(1.025);
 }
 
 .container img {
@@ -14,6 +19,7 @@
     border-radius: 30px;
     right: -785px;
     top: 12px;
+    right: -485px;
     position: relative;
 }
 
@@ -22,11 +28,27 @@
     text-align: left;
     position: relative;
     top: 12px;
-    right: -785px;
+    right: -485px;
     width: 200px;
 }
 
 h1 {
     text-align: center;
     position: relative;
+    top: -10px;
+}
+
+h2 {
+    top: -400px;
+    right: -20px;
+    position: relative;
+}
+
+.experience {
+    position: relative;
+    top: -400px;
+    margin-top: 10px;
+    text-align: left;
+    max-width: 300px;
+    right: -20px;
 }
