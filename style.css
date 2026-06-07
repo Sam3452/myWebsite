@@ -10,7 +10,7 @@
 
 .container:hover {
     transition: 0.5s ease;
-    transform: scale(1.025);
+    transform: scale(1.026);
 }
 
 .container img {
